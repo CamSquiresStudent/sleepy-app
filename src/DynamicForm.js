@@ -28,7 +28,7 @@ class DynamicForm extends Component {
       <form onSubmit={this.handleSubmit}>
         <div className="Box" >
           <div className="Question">
-            I want to sleep for (hours)
+            How many hours do you want to be a god for
           </div>
           <input
             name="sleepDuration"
@@ -37,7 +37,7 @@ class DynamicForm extends Component {
             className="Input"
           />
           <div className="Question">
-            Time it takes me to fall asleep (minutes)
+            Time it takes me to become a god (minutes)
           </div>
           <input
             name="fallingAsleepTime"
@@ -46,7 +46,7 @@ class DynamicForm extends Component {
             className="Input"
           />
           <div className="Question">
-            I want to wake up at
+            I want to become a god at
           </div>
           <select name="wakingUpTime" id="wakingUpTimeDynamic" className="Submit" >
             <option value="05:00 AM">05:00 AM</option>
@@ -59,6 +59,8 @@ class DynamicForm extends Component {
             <option value="08:30 AM">08:30 AM</option>
             <option value="09:00 AM">09:00 AM</option>
             <option value="09:30 AM">09:30 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="10:30 AM">10:30 AM</option>
           </select>
           <br />
           <input type="submit" id="submit" className="Submit" />
